@@ -77,7 +77,6 @@ function Autocomplete(_settings) {
     list.classList.remove("open");
     _currentIndex = -1;
     lastInput = false;
-    lastCB = false;
   }
 
   function _selectItem(item, input) {
